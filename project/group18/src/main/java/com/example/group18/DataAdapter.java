@@ -161,7 +161,6 @@ public class DataAdapter {
 		// get index of coin in list
 		int index = list.getItems().indexOf(coin);
 		int timing = 0;
-		int num = 0;
 
 		JSONObject jo = new JSONObject(
 				new JSONTokener(
@@ -207,7 +206,6 @@ public class DataAdapter {
 		// get index of coin in list
 		int index = list.getItems().indexOf(coin);
 		int timing = 0;
-		int num = 0;
 
 		JSONObject jo = new JSONObject(
 				new JSONTokener(
@@ -266,7 +264,7 @@ public class DataAdapter {
 		//
 		String Array = ja.get(index).toString();
 		JSONObject json = new JSONObject(Array);
-		JSONArray jsonArray = json.getJSONArray("market_caps");
+		JSONArray jsonArray = json.getJSONArray("total_volumes");
 
 		if (intervals.getValue().equals("weekly")) {
 			timing = 7;
@@ -282,7 +280,7 @@ public class DataAdapter {
 
 		for (int i = jsonArray.length() - 1; i >= 0; i--) {
 			JSONArray jsonArray1 = jsonArray.getJSONArray(i);
-			volume.add(jsonArray1.getDouble(0));
+			volume.add(jsonArray1.getDouble(1)); // changed from 0 to 1 because volume was not showing
 			i = i - timing;
 		}
 
