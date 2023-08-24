@@ -1,8 +1,8 @@
-# crypto-analysis-app developed in Java and JavaFX
+# Crypto Currency Metrics Application developed in Java and JavaFX
 
 ## This application displays crypotocurrency data in graphical format for various user-selected cryptocurrencies
 
-Cryptocurrency analysis tool. Displays various metrics for a wide range of cryptocurrencies selected by the user.
+This project implements CoinGecko's REST API to retrieve and process data for cryptocurrencies. The application is developed in Java and uses JavaFX to create the user-interface and graph
 
 Java files are located under src/main/java/com/example/group18. To execute, run the file login.java. The program will start by launching the user login window which will prompt for a username and password, "admin" is the default for both username and password and can be modified within userData.json.
 
