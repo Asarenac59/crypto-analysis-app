@@ -12,7 +12,7 @@ Any warnings can be ignored and are mostly due to JavaFX generic type declaratio
 
 1. To begin, run the file login.java. The login window will appear prompting for the username and password.
 
-<img src="https://github.com/Asarenac59/crypto-analysis-app/blob/bfcfd362370977228e3ec34f695dc0a8073bd00a/images/crypto-app-login.png"](https://github.com/Asarenac59/crypto-analysis-app/blob/61f982a76e7d38503d5bffa9ab4e1a764691823d/images/crypto-app-login.PNG" alt="login window"/>
+<img src="https://github.com/Asarenac59/crypto-analysis-app/blob/61f982a76e7d38503d5bffa9ab4e1a764691823d/images/crypto-app-login.PNG" alt="login window"/>
 
 2. If login credentials are correct the main menu will be displayed. Cryptocurrencies are selected at the drop-down list located at the very top of the main menu and can be added or removed by clicking the "+" and "-" buttons to the very right. The selected cryptocurrencies are listed on the far right.
 
@@ -24,7 +24,7 @@ Any warnings can be ignored and are mostly due to JavaFX generic type declaratio
 
 4. The next step is to select one of eight metrics from the middle drop-down list at the bottom of the main menu as shown below.
 
-<img src="https://github.com/Asarenac59/crypto-analysis-app/blob/bfcfd362370977228e3ec34f695dc0a8073bd00a/images/crypto-app-metric.png"](https://github.com/Asarenac59/crypto-analysis-app/blob/61f982a76e7d38503d5bffa9ab4e1a764691823d/images/crypto-app-metrics.png" alt="metric selection"/>
+<img src="https://github.com/Asarenac59/crypto-analysis-app/blob/61f982a76e7d38503d5bffa9ab4e1a764691823d/images/crypto-app-metrics.png" alt="metric selection"/>
 
 5. After a metric is selected, the "Choose Interval" drop-down list allows for data to be displayed in one of the four options
 
